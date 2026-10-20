@@ -1,0 +1,24 @@
+# Source de vérité des confirmations.
+# Un agent ne touche un fichier_confirme que sur demande explicite du propriétaire.
+
+fichiers_confirmes: []
+# README.md existe depuis le commit initial mais n'est PAS une spec produit confirmée.
+
+decisions_confirmees:
+  - id: PROC-001
+    decision: Travail méthodique, point par point, double vérification, push GitHub.
+    source: consigne propriétaire 2026-10-20
+  - id: PROC-002
+    decision: Ne pas toucher le code déjà mis en place et confirmé.
+    source: règle utilisateur
+  - id: PROC-003
+    decision: Répondre et documenter en français.
+    source: règle utilisateur
+  - id: PROC-004
+    decision: Réduire les allers-retours et corrections pour économiser les tokens.
+    source: consigne propriétaire 2026-10-20
+
+interdits:
+  - Inventer le produit, le public cible, le stack, l'UI ou le contenu pédagogique.
+  - Force-push sur main.
+  - Recréer la stratégie tokens si AGENTS.md et docs/strategie-tokens.md existent déjà sans delta.
