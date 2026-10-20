@@ -1,0 +1,12 @@
+---
+description: Anti-gaspillage tokens et fichiers gelés
+alwaysApply: true
+---
+
+Ne pas inventer le produit / stack / UI. Lire `docs/etat.md` avant tout glob.
+
+Ne jamais modifier un chemin de `docs/confirmations.yml` sans demande explicite.
+
+Travailler point par point. Vérifier le diff deux fois. Push + PR. Français.
+
+Si la tache est bloquée par une inconnue produit : écrire dans `docs/questions-ouvertes.md` et s’arrêter.
