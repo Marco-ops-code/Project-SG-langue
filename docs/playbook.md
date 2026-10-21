@@ -4,7 +4,7 @@ Méthode obligatoire pour ce dépôt. Détail stratégique : `@docs/strategie.md
 
 ## Avant de coder
 
-1. Lire `AGENTS.md` (déjà en contexte) et le **dernier** fichier de `revue/`.
+1. Lire `AGENTS.md` (déjà en contexte), `@docs/etat.md` s’il existe, et le **dernier** fichier de `revue/`.
 2. Lancer `python3 scripts/validate-kit.py` si le kit ou les règles sont en jeu.
 3. Cadrer la tâche sur `@templates/brief.md` (compléter en silence si l’humain a omis un champ non irréversible).
 4. Lister 3 à 7 points d’exécution. Un point = un résultat vérifiable.
@@ -28,4 +28,5 @@ Méthode obligatoire pour ce dépôt. Détail stratégique : `@docs/strategie.md
 A. Lire la dernière revue, pas toute la stratégie.
 B. Validateur. Si vert et aucun nouveau constat : écrire la revue du jour (« kit stable ») et s’arrêter.
 C. Si rouge ou constat nouveau : une seule correction ciblée, commit, revue, push.
-D. Interdit : régénérer le kit, dupliquer les docs, ouvrir une seconde stratégie parallèle.
+D. Si le kit existe déjà sur une PR ouverte mais pas sur `main` : le porter, écrire la revue, ne pas en inventer un troisième.
+E. Interdit : régénérer le kit, dupliquer les docs, ouvrir une seconde stratégie parallèle.

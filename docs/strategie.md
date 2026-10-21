@@ -58,3 +58,16 @@ Chaque run quotidien :
 3. N’ajoute **qu’une** amélioration si un plafond est dépassé ou si un gaspillage réel est observé.
 
 Pas de tableau fantôme : tant qu’il n’y a pas d’usage produit, la métrique utile est le **budget always-on** et le **nombre de réécritures évitées**.
+
+## 6. Addendum 2026-10-21
+
+Constat nouveau (le kit 2026-10-20 n’était pas sur `main`) :
+
+| Fuite observée | Preuve | Correction de ce run |
+| --- | --- | --- |
+| Kit seulement en PR brouillon | `main` = `README.md` seul ; cron du 21 redémarre à vide | Porter le kit, ne pas le régénérer |
+| Deux stratégies parallèles | PR #1 (kit validé) et PR #2 (`alwaysApply: true`) | Une source : le kit #1. PR #2 = variante, pas un second contrat |
+| Re-exploration du dépôt vide | Chaque cron sans `docs/etat.md` refait le glob | Snapshot `@docs/etat.md` |
+| Invention produit | Aucune spec ; risque d’app « langue » | Lot unique `@docs/questions-ouvertes.md`, puis stop |
+
+Levier propriétaire restant (hors dépôt) : fusionner **une** PR de kit, puis restreindre l’automation aux chemins `AGENTS.md` / `docs/` / `revue/` — sinon chaque merge `main` relance un agent.

@@ -13,8 +13,10 @@ python3 scripts/validate-kit.py
 | Fichier | Rôle | Chargé quand |
 | --- | --- | --- |
 | `AGENTS.md` | Contrat agent (seul always-on) | Chaque message |
+| `docs/etat.md` | Snapshot du dépôt | Avant tout glob |
 | `docs/strategie.md` | Analyse et leviers | À la demande |
 | `docs/playbook.md` | Méthode point par point | À la demande |
+| `docs/questions-ouvertes.md` | Lot de questions produit | Si une inconnue bloque |
 | `templates/brief.md` | Brief fermé | Avant d’agir |
 | `checklists/livraison.md` | Double revue | Avant commit |
 | `revue/` | Journal des crons | Dernier fichier seulement |
