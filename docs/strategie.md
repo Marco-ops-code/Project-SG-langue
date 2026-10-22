@@ -71,3 +71,14 @@ Constat nouveau (le kit 2026-10-20 n’était pas sur `main`) :
 | Invention produit | Aucune spec ; risque d’app « langue » | Lot unique `@docs/questions-ouvertes.md`, puis stop |
 
 Levier propriétaire restant (hors dépôt) : fusionner **une** PR de kit, puis restreindre l’automation aux chemins `AGENTS.md` / `docs/` / `revue/` — sinon chaque merge `main` relance un agent.
+
+## 7. Addendum 2026-10-22
+
+Constat nouveau (récurrence, pas une nouvelle stratégie) :
+
+| Fuite observée | Preuve | Correction de ce run |
+| --- | --- | --- |
+| Kit toujours hors de `main` au 3e cron | `main` = `README.md` ; PR #1, #2, #3 encore brouillon | Porter le kit #3, ne pas en inventer un quatrième |
+| Le port quotidien est devenu la fuite | Chaque cron repart d’un dépôt vide et rouvre une PR | Revue « kit stable » ; aucune réécriture du contrat |
+
+Levier propriétaire inchangé et plus urgent : fusionner **une** PR (#3 ou #1), fermer la #2, restreindre le cron. Sans ça, le 23 octobre reproduira le même port.
