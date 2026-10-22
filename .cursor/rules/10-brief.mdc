@@ -1,0 +1,14 @@
+---
+description: Rédiger ou appliquer un brief complet pour éviter les questions et les allers-retours.
+alwaysApply: false
+---
+
+Un brief incomplet crée des tours de clarification. C’est la première source de tokens gaspillés.
+
+Avant d’agir :
+
+1. Lire `@templates/brief.md`.
+2. Si le brief utilisateur est partiel, le compléter silencieusement avec les conventions du kit. Ne poser une question que si un choix irréversible manque (données, secret, destruction).
+3. Écrire le plan en 3 à 7 points, puis exécuter sans redemander confirmation.
+
+Un brief valide contient : objectif, hors-périmètre, fichiers touchables, critère d’acceptation, contrainte « ne pas toucher ».
