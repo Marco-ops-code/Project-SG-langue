@@ -1,7 +1,7 @@
 # État du projet
 
-Dernière mise à jour : 2026-10-22
-Source : `main` (`ad878df`) + kit porté (PR #3) + revue du jour.
+Dernière mise à jour : 2026-10-23
+Source : `main` (`ad878df`) + kit porté (PR #4) + revue du jour.
 
 ## Snapshot
 
@@ -12,8 +12,8 @@ Source : `main` (`ad878df`) + kit porté (PR #3) + revue du jour.
 | Stack | **Non défini** |
 | Code applicatif | Aucun |
 | Always-on | `AGENTS.md` seul (zéro `alwaysApply: true`) |
-| Kit | Présent sur cette branche ; **absent de `main` depuis 3 crons** |
-| PR kit déjà ouvertes | #1 (canonique), #2 (variante, `alwaysApply: true` — ne pas suivre), #3 (port 21) |
+| Kit | Présent sur cette branche ; **absent de `main` depuis 4 crons** |
+| PR kit déjà ouvertes | #1 (canonique), #2 (variante, `alwaysApply: true` — ne pas suivre), #3 (port 21), #4 (port 22) |
 
 ## Arborescence utile
 
@@ -29,6 +29,6 @@ Source : `main` (`ad878df`) + kit porté (PR #3) + revue du jour.
 
 - Re-globber tout le dépôt alors que ce fichier existe.
 - Générer une app langue / un stack par défaut.
-- Réécrire la stratégie ou ouvrir une quatrième variante du kit.
+- Réécrire la stratégie ou ouvrir une cinquième variante du kit.
 - Activer `alwaysApply: true` (la PR #2 le faisait : double always-on).
 - Fusionner plusieurs PR kit en parallèle (une seule suffit).

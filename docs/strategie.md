@@ -82,3 +82,14 @@ Constat nouveau (récurrence, pas une nouvelle stratégie) :
 | Le port quotidien est devenu la fuite | Chaque cron repart d’un dépôt vide et rouvre une PR | Revue « kit stable » ; aucune réécriture du contrat |
 
 Levier propriétaire inchangé et plus urgent : fusionner **une** PR (#3 ou #1), fermer la #2, restreindre le cron. Sans ça, le 23 octobre reproduira le même port.
+
+## 8. Addendum 2026-10-23
+
+Constat nouveau (la prédiction du 22 s’est réalisée ; pas une nouvelle stratégie) :
+
+| Fuite observée | Preuve | Correction de ce run |
+| --- | --- | --- |
+| Kit toujours hors de `main` au 4e cron | `main` = `README.md` ; PR #1 à #4 encore brouillon | Porter le kit #4, ne pas en inventer un cinquième |
+| Le port quotidien reste la fuite | Quatre crons, quatre PR, même contrat 302 tokens | Revue « kit stable » ; contrat `AGENTS.md` inchangé |
+
+Levier propriétaire unique désormais : fusionner **une** PR (#4, #3 ou #1), fermer la #2, restreindre le cron. Un 5e port n’ajoutera aucun levier.
