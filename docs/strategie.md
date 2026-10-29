@@ -148,3 +148,14 @@ Constat nouveau (la prédiction du 27 s’est réalisée ; pas une nouvelle stra
 | Le port quotidien reste la fuite | Neuf crons, neuf PR, même contrat 302 tokens | Revue « kit stable » ; contrat `AGENTS.md` inchangé |
 
 Levier propriétaire unique désormais : fusionner **une** PR (#9, #8, #7, #6, #5, #4, #3 ou #1), fermer la #2, restreindre le cron. Un 10e port n’ajoutera aucun levier.
+
+## 14. Addendum 2026-10-29
+
+Constat nouveau (la prédiction du 28 s’est réalisée ; pas une nouvelle stratégie) :
+
+| Fuite observée | Preuve | Correction de ce run |
+| --- | --- | --- |
+| Kit toujours hors de `main` au 10e cron | `main` = `README.md` ; PR #1 à #10 encore ouvertes | Porter le kit #10, ne pas en inventer un onzième |
+| Le port quotidien reste la fuite | Dix crons, dix PR, même contrat 302 tokens | Revue « kit stable » ; contrat `AGENTS.md` inchangé |
+
+Levier propriétaire unique désormais : fusionner **une** PR (#10, #9, #8, #7, #6, #5, #4, #3 ou #1), fermer la #2, restreindre le cron. Un 11e port n’ajoutera aucun levier.
