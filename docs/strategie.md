@@ -269,3 +269,14 @@ Constat nouveau (la prédiction du 8 novembre s’est réalisée ; pas une nouve
 | Le port quotidien reste la fuite | Vingt PR, même contrat 302 tokens ; un jour manqué n’a rien fusionné | Revue « kit stable » ; contrat `AGENTS.md` inchangé |
 
 Levier propriétaire unique désormais : fusionner **une** PR (#20, #19, #18, #17, #16, #15, #14, #13, #12, #11, #10, #9, #8, #7, #6, #5, #4, #3 ou #1), fermer la #2, restreindre le cron. Un 21e port n’ajoutera aucun levier.
+
+## 25. Addendum 2026-11-10
+
+Constat nouveau (la prédiction du 9 novembre s’est réalisée ; pas une nouvelle stratégie) :
+
+| Fuite observée | Preuve | Correction de ce run |
+| --- | --- | --- |
+| Kit toujours hors de `main` au 22e jour | `main` = `README.md` ; PR #1 à #21 encore ouvertes ; 30 octobre sans port | Porter le kit #21, ne pas en inventer un vingt-deuxième |
+| Le port quotidien reste la fuite | Vingt-et-une PR, même contrat 302 tokens ; un jour manqué n’a rien fusionné | Revue « kit stable » ; contrat `AGENTS.md` inchangé |
+
+Levier propriétaire unique désormais : fusionner **une** PR (#21, #20, #19, #18, #17, #16, #15, #14, #13, #12, #11, #10, #9, #8, #7, #6, #5, #4, #3 ou #1), fermer la #2, restreindre le cron. Un 22e port n’ajoutera aucun levier.
