@@ -1,0 +1,11 @@
+---
+description: Conventions des fichiers du kit (docs, templates, checklists, scripts, revues).
+globs: docs/**,templates/**,checklists/**,scripts/**,revue/**,AGENTS.md
+alwaysApply: false
+---
+
+- `AGENTS.md` reste sous 40 lignes et 500 mots. C’est le seul contexte always-on.
+- Les règles `.mdc` restent courtes et non redondantes avec `AGENTS.md`.
+- Pointer vers un fichier (`@chemin`) plutôt que le recopier.
+- Une revue quotidienne = un fichier daté, pas une réécriture du playbook.
+- Le validateur `scripts/validate-kit.py` est la source des plafonds chiffrés.
