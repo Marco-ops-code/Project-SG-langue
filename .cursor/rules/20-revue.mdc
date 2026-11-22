@@ -1,0 +1,13 @@
+---
+description: Revue avant livraison et revue quotidienne du kit tokens.
+alwaysApply: false
+---
+
+Appliquer `@checklists/livraison.md` une première fois, puis une seconde fois sur les écarts seulement.
+
+Pour une revue quotidienne (cron Project M) :
+
+1. Lire le dernier fichier de `revue/` — ne pas relire toute la stratégie.
+2. Exécuter `python3 scripts/validate-kit.py`.
+3. Si le kit est vert et sans constat nouveau : écrire `revue/AAAA-MM-JJ.md` (« kit stable ») et s’arrêter.
+4. Sinon : une seule correction mesurée. Interdit de réécrire `docs/strategie.md` sans nouveau constat.
